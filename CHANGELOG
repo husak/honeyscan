@@ -1,0 +1,12 @@
+2010-09-03 v1.0.0 stable version
+- initial public release
+- periodic processing of NetFlow data
+- web frontend with tabs (overview, details, ip info, trends, passwords, whitelist about)
+  with graphs, charts and interactive tables
+- whitelisting legitimate flows with nfdump filter,
+  IP whitelist editable via frontend
+- IPv4 and IPv6 support
+- mail notification of flows from local network, massive accesses and dictionary attacks
+- editable messages of mail notification
+- database of passwords captured by honeypots during dictionary attacks (can be turned off)
+- anonymized data export to text files (can be turned off)
